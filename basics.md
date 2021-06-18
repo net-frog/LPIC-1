@@ -76,4 +76,23 @@ cd -
 - External: Commands that provide by external utility.
 > Some commands might be available as both.
 
+### Environmental Variable
+- A variable able inside shell environment. e.g.
+   - Print environmental variable:
+   ```
+   echo $HOME 
+   ```
+   ```
+   echo $USER 
+   ```
+   ```
+   echo $HOSTNAME 
+   ```
+   ```
+   echo $MYVAR 
+   ```
 
+    - Set environmental variable:
+  ``` 
+  set MYVAR 
+  ```
