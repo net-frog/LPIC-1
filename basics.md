@@ -9,29 +9,29 @@
 - Zsh
 - tcsh
 #### Shell in use: 
-```console
-1. ls -l /bin/sh
-2. readlink /bin/sh 
-3. echo $SHELL
-```
+```foo@bar:~$ ls -l /bin/sh ```
+
+```foo@bar:~$ readlink /bin/sh  ```
+
+```foo@bar:~$ echo $SHELL ```
+
 #### Shell Version:
-```
-1. echo $BASH_VERSION
-2. bash --version
-```
+```foo@bar:~$ echo $BASH_VERSION```
+
+```foo@bar:~$ bash --version ```
 ### Working with Directories:
 
 ##### Print Current working directory: 
-- ```pwd```
+```foo@bar:~$ pwd```
 
 ##### Create Directory in current Directory:
-- ```mkdir parent_dir```
+```foo@bar:~$ mkdir parent_dir```
 
 ##### Create Directory sub-directory in parent_dir:
-- ```mkdir parent_dir/child_dir```
+```foo@bar:~$ mkdir parent_dir/child_dir```
 
 ##### Create Parent and Child Directory together 
-- ```mkdir -p parent_dir/child_dir```
+```foo@bar:~$ mkdir -p parent_dir/child_dir```
 
 ##### Change Directory 
 - Change to /etc directory: ```` cd /etc ```` 
